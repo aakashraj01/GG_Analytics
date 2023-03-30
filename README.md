@@ -1,19 +1,30 @@
-# GG_Analytics
+<p align="center">
+ Shubham | GreedyGames Assessment
+</p>
 
-Link of live deployed website: https://analytics-murex.vercel.app/
+<h4 align="center">
+  <a href="https://shubham-greedygames.vercel.app/analytics" target="_blank" rel="noreferrer">Deployed Project 🚀</a>
+</h4>
 
-This project implements an analytics table that supports the specs outlined in the assignment document. I've also implemented a caching layer to cache recent requests, and you can find my comments about its implementation inside `src/common/utils/request/index.js` file.
+### How to Run Locally
 
-To start using it, create a .env file with the following variables:
+Run the below command to clone the repo locally
 
 ```
-REACT_APP_API_VERSION=v3
-REACT_APP_API_BASE_URL=http://go-dev.greedygame.com
+git clone https://github.com/ShubhamSj07/shubham-greedygames.git
 ```
 
-Then execute the following.
+### To run the project, go to the shubham-greedygames directory
+
 ```
-yarn install
-yarn start
+cd shubham-greedygames
 ```
 
+### To install dependencies run
+
+```
+npm install
+npm start
+```
+
+#### this will run your `React app` server on <a href="http://localhost:3000">`localhost:3000`</a>

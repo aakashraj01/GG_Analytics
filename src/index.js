@@ -1,10 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
+import { AppRoutes } from "./AppRoutes";
+import "./globalStyles.scss";
+import { store } from "./redux/store";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <>
+    <Provider store={store}>
+      <AppRoutes />
+    </Provider>
+  </>
 );
